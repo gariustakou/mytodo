@@ -53,6 +53,8 @@ kotlin {
             // Splash API
             implementation(libs.androidx.core.splashscreen)
             implementation(libs.accompanist.permissions)
+            // ui controller
+            implementation(libs.systemuicontroller)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -87,8 +89,7 @@ kotlin {
 
             implementation(libs.calendar)
 
-            // ui controller
-            implementation(libs.systemuicontroller)
+
             // toast
             implementation(libs.messagebarkmp)
 

@@ -1,4 +1,4 @@
-package org.garius.mytodo
+package org.garius.mytodo.app
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -17,6 +17,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 import mytodo.composeapp.generated.resources.Res
 import mytodo.composeapp.generated.resources.compose_multiplatform
+import org.garius.mytodo.Greeting
 
 @Composable
 @Preview
