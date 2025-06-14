@@ -1,5 +1,6 @@
 package org.garius.mytodo.app.di
 
+import org.garius.mytodo.todo.data.database.DatabaseFactory
 import org.koin.core.module.Module
 import org.koin.dsl.module
 
@@ -9,5 +10,5 @@ actual val platformModule: Module
 //        single<DataStore<Preferences>> { DataStoreFactory().createDataStore() }
 //            createDataStore()
 //        }
-        //single { DatabaseFactory() }
+        single { DatabaseFactory() }
     }
